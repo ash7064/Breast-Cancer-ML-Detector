@@ -1,4 +1,6 @@
  # Description
- This file contains a KNN model that categorizes cells into benign or malignant for breast cancer based on ten different nuclear features.
+ Breast cancer affects more than 2 million people, primarily in low and middle income countries, many of which lack pathologists to diagnose breast cancer.  This research aims to use machine learning algorithms for breast cancer screening in areas lacking adequate supplies of doctors. In this experiment, a dataset from the UC Irvine Machine Learning Repository was used, which included 212 malignant and 357 benign breast cancer cells. This dataset contained numerical data describing ten different nuclear features: radius, perimeter, area, compactness, smoothness, concavity, concave points, symmetry, fractal dimension, and texture. First,  the dataset was split into a test and trial group. Then the train and test groups were used in Logistic Regression, K Nearest Neighbours (KNN), and Multi-Layer Perceptron (MLP) Classifier models. KNN had the highest accuracy level of roughly 97% ± 0.5 %. A website was generated to deploy this model and is available to the general public at [https://5087-34-173-190-87.ngrok-free.app/]. Users can input data for 10 features, where artificial intelligence can be used to diagnose breast cancer cells as malignant or benign. 
+
+ 
  ## Dataset
  This dataset is from the UC Irvine Machine learning repositiory. It contains 569 cells.
